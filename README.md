@@ -1,7 +1,7 @@
 # sql-union-ddl
 
 ## Standard criteria
-Go over to this Kaggle page, read carefully the description of the dataset as well as the description of each column in the data. There are two sets of data collected for 2 power plants: the “Generation Data” and the ”Weather Sensor Data”:
+Go over to this [Kaggle](https://www.kaggle.com/datasets/anikannal/solar-power-generation-data?select=Plant_1_Weather_Sensor_Data.csv) page, read carefully the description of the dataset as well as the description of each column in the data. There are two sets of data collected for 2 power plants: the “Generation Data” and the ”Weather Sensor Data”:
 1. Download the four csv files using the Download button at the top of the page (it will download them into a zipped folder, so make sure you unzip the folder);
 2. Move over to BigQuery, below your personal project create a new data set and name it “SolarPower”;
 3. In the newly created data set, upload the four files into four separate tables (give to each table the corresponding file name); in the end you should have a situation similar to the one the screenshot below:
