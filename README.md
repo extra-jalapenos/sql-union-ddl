@@ -1,6 +1,7 @@
 # sql-union-ddl
 
 ## Standard criteria
+### Data manipulation language
 Go over to this [Kaggle](https://www.kaggle.com/datasets/anikannal/solar-power-generation-data?select=Plant_1_Weather_Sensor_Data.csv) page, read carefully the description of the dataset as well as the description of each column in the data. There are two sets of data collected for 2 power plants: the “Generation Data” and the ”Weather Sensor Data”:
 1. Download the four csv files using the Download button at the top of the page (it will download them into a zipped folder, so make sure you unzip the folder);
 2. Move over to BigQuery, below your personal project create a new data set and name it “SolarPower”;
@@ -11,7 +12,7 @@ Go over to this [Kaggle](https://www.kaggle.com/datasets/anikannal/solar-power-g
 5. How many inverters (hint: source_key) are there in each plant?
 6. How many days of observations do we have for each plant?
 7. Which inverter generated the highest total yield? Which plant does it belong to? Hint: careful with the aggregation function you use with the total_yield field, read carefully its description on the kaggle page.
-### DATA DEFINITION LANGUAGE
+### Data definition language
 Using the sqliteonline environment, create the following two tables (from the previous lesson on Joins) specifying the correct schemas (column names, data types, etc)
 1. Create the “students” table:
 students
